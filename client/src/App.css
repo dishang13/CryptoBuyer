@@ -1,0 +1,11 @@
+.container-fluid {
+  padding-top: 15px;
+}
+
+.card {
+  min-width: 500px;
+}
+
+.recommended {
+  color: green;
+}
