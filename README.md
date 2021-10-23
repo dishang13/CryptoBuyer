@@ -1,6 +1,6 @@
 # CryptoTrader
 A simple website for trading Bitcoin and Ethereum using React.js and JAX-RS. Developed as part of the assesment at Chainalysis.
-## Live Version - http://35.170.62.236/:8080/CryptoTrader/
+## Live Version - http://35.170.62.236:8080/CryptoTrader/
 
 
 ## Questionnaire
