@@ -13,7 +13,7 @@ The only part I can think of was how the combined exchange information is sent b
 3. If you have to scale your solution to 100 users/second traffic what changes would you make, if any?\
 I would try to implement some form of caching for the API services, so that if 100 users call the server, the server sends out only one API call to each exchange. There are also other options of having horizontal and vertical scaling, moving API calls to client side so that client itself can call the exchanges and get data directly without having it to route through the server.
 
-4. What are some other enhancements you would have made, if you had more time to do this implementation\
+4. What are some other enhancements you would have made, if you had more time to do this implementation
     - Use websockets to show real-time data.
     - Allow the user to select what currency they wanted to see the prices in (USD, EUR, INR, etc.)
 
@@ -21,7 +21,7 @@ I would try to implement some form of caching for the API services, so that if 1
 #### Software Requirements
 1. IntelliJ IDEA Ultimate - https://www.jetbrains.com/student/ I am using IntelliJ IDEA Ultimate 2021.1.3
 2. Java 11 SDK - https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html. Use the latest version that your system supports. OpenJDK and Java 13 should also be fine.
-3. Tomcat 9 - https://tomcat.apache.org/download-90.cgi I am using Tomcat 9. Download the core binary distribution. If you have a Mac, download the tar.gz file. If you have a Windows machine, download the 64-bit Windows zip file. To install Tomcat, simply put the archive file in your working directory and unzip it.\
+3. Tomcat 9 - https://tomcat.apache.org/download-90.cgi I am using Tomcat 9. Download the core binary distribution. If you have a Mac, download the tar.gz file. If you have a Windows machine, download the 64-bit Windows zip file. To install Tomcat, simply put the archive file in your working directory and unzip it.
 
 #### Build and Run
 1. Download/Clone this Repository to a folder on your PC.
