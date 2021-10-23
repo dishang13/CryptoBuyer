@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CryptoTrader/static/css/main.e13c3572.chunk.css",
+    "main.js": "/CryptoTrader/static/js/main.99b2fe61.chunk.js",
+    "main.js.map": "/CryptoTrader/static/js/main.99b2fe61.chunk.js.map",
+    "runtime-main.js": "/CryptoTrader/static/js/runtime-main.cd686b7a.js",
+    "runtime-main.js.map": "/CryptoTrader/static/js/runtime-main.cd686b7a.js.map",
+    "static/js/2.73c3c204.chunk.js": "/CryptoTrader/static/js/2.73c3c204.chunk.js",
+    "static/js/2.73c3c204.chunk.js.map": "/CryptoTrader/static/js/2.73c3c204.chunk.js.map",
+    "static/js/3.45a3626c.chunk.js": "/CryptoTrader/static/js/3.45a3626c.chunk.js",
+    "static/js/3.45a3626c.chunk.js.map": "/CryptoTrader/static/js/3.45a3626c.chunk.js.map",
+    "index.html": "/CryptoTrader/index.html",
+    "static/css/main.e13c3572.chunk.css.map": "/CryptoTrader/static/css/main.e13c3572.chunk.css.map",
+    "static/js/2.73c3c204.chunk.js.LICENSE.txt": "/CryptoTrader/static/js/2.73c3c204.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd686b7a.js",
+    "static/js/2.73c3c204.chunk.js",
+    "static/css/main.e13c3572.chunk.css",
+    "static/js/main.99b2fe61.chunk.js"
+  ]
+}

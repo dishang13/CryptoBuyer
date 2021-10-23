@@ -115,14 +115,31 @@ public class CryptoCurrency {
         Map<String,CryptoCurrency> cryptos = new HashMap<>();
 
         JSONObject btc = fetch("https://cex.io/api/ticker/BTC/USD");
+        Double bid = null,ask = null;
+        if(btc.get("bid") instanceof Long) {
+            bid = ((Long)btc.get("bid")).doubleValue();
+            System.out.println("Bid was Long");
+        } else bid = (Double) btc.get("bid");
+        if(btc.get("ask") instanceof Long) {
+            ask = ((Long)btc.get("ask")).doubleValue();
+            System.out.println("Ask was Long");
+        } else ask = (Double) btc.get("ask");
         cryptos.put("Bitcoin",new CryptoCurrency("Bitcoin"
-                , (Double) btc.get("ask")
-                , (Double)btc.get("bid")));
+                , ask, bid));
 
         JSONObject eth = fetch("https://cex.io/api/ticker/ETH/USD");
+        bid = null;ask = null;
+        if(eth.get("bid") instanceof Long) {
+            bid = ((Long)eth.get("bid")).doubleValue();
+            System.out.println("Bid was Long");
+        } else bid = (Double) eth.get("bid");
+        if(eth.get("ask") instanceof Long) {
+            ask = ((Long)eth.get("ask")).doubleValue();
+            System.out.println("Ask was Long");
+        } else ask = (Double) eth.get("ask");
+
         cryptos.put("Ethereum",new CryptoCurrency("Ethereum"
-                , (Double) eth.get("ask")
-                , (Double) eth.get("bid")));
+                , ask,bid));
 
         return cryptos;
     }
