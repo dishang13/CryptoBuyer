@@ -1,6 +1,6 @@
 # CryptoTrader
 A simple website for trading Bitcoin and Ethereum using React.js and JAX-RS. Developed as part of the assesment at Chainalysis.
-## Live Version - http://18.208.206.98:8080/CryptoTrader/
+## Live Version - http://35.170.62.236/:8080/CryptoTrader/
 
 
 ## Questionnaire
@@ -19,9 +19,11 @@ I would try to implement some form of caching for the API services, so that if 1
 
 ## Build and Run Instructions
 #### Software Requirements
-1. IntelliJ IDEA - https://www.jetbrains.com/student/ I am using IntelliJ IDEA Ultimate 2021.1.3
-2. Tomcat 9 - https://tomcat.apache.org/download-90.cgi I am using Tomcat 9. Download the core binary distribution. If you have a Mac, download the tar.gz file. If you have a Windows machine, download the 64-bit Windows zip file. To install Tomcat, simply put the archive file in your working directory and unzip it.
+1. IntelliJ IDEA Ultimate - https://www.jetbrains.com/student/ I am using IntelliJ IDEA Ultimate 2021.1.3
+2. Java 11 SDK - https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html. Use the latest version that your system supports. OpenJDK and Java 13 should also be fine.
+3. Tomcat 9 - https://tomcat.apache.org/download-90.cgi I am using Tomcat 9. Download the core binary distribution. If you have a Mac, download the tar.gz file. If you have a Windows machine, download the 64-bit Windows zip file. To install Tomcat, simply put the archive file in your working directory and unzip it.\
 
+#### Build and Run
 1. Download/Clone this Repository to a folder on your PC.
 2. Open the repository folder in IntelliJ IDEA as a project. It will take some time for it to load and perform its setup.
 3. Add a new run configuration by clicking the "Add Configuration" button in the top right 
