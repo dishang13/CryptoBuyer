@@ -1,6 +1,6 @@
 # CryptoTrader
 A simple website for trading Bitcoin and Ethereum using React.js and JAX-RS. Developed as part of the assesment at Chainalysis.
-## Live Version - http://3.231.166.7:8080/CryptoTrader/
+## Live Version - http://34.207.113.52:8080/CryptoTrader/
 
 
 ## Questionnaire
@@ -41,5 +41,5 @@ I would try to implement some form of caching for the API services, so that if 1
 ![image](https://user-images.githubusercontent.com/26704547/138542586-7b71ceae-58e1-47ae-a5ed-4a9e9eb02328.png)
 
 10. Click Apply and Ok
-11. Hit the run button (Green Play icon). The server should build the app and open the browser automatically once done.
+11. Hit the run button (Green Play icon). The server should build the app and open the browser automatically once done.\
 ![image](https://user-images.githubusercontent.com/26704547/138542653-d5216a54-cc92-4010-8706-a579fd58a480.png)
