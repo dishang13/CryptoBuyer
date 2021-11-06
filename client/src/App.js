@@ -15,7 +15,7 @@ class App extends Component {
 
   componentDidMount() {
     // Get Currency Data from backend api
-    fetch('http://localhost:8080/CryptoTrader/api/details')
+    fetch('http://'+document.location.hostname+':8080/CryptoTrader/api/details')
       .then(res => res.json())
       .then((data) => {
         console.log(data)
